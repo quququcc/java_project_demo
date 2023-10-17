@@ -1,0 +1,22 @@
+2023-09-27 21:42:41 [com.xxl.job.core.thread.JobThread#run]-[130]-[Thread-24] <br>----------- xxl-job job execute start -----------<br>----------- Param:
+2023-09-27 21:42:41 [com.xxl.job.core.handler.impl.GlueJobHandler#execute]-[25]-[Thread-24] ----------- glue.version:1695821800000 -----------
+2023-09-27 21:42:41 [com.xxl.job.core.thread.JobThread#run]-[201]-[Thread-24] <br>----------- JobThread Exception:java.lang.NullPointerException
+	at com.fs.dylan.utils.ServletUtils.getLanguageEnum(ServletUtils.java:33)
+	at com.fs.dylan.utils.ServletUtils.getLocale(ServletUtils.java:49)
+	at com.fs.dylan.utils.MessageUtils.getMessage(MessageUtils.java:21)
+	at com.fs.dylan.utils.MessageUtils$getMessage.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+	at com.fs.dylan.schedule.DemoGLUESchedule.execute(Script_6b05869c7dd941159ad82af27c9ddd85.groovy:20)
+	at com.xxl.job.core.handler.impl.GlueJobHandler.execute(GlueJobHandler.java:26)
+	at com.xxl.job.core.thread.JobThread.run(JobThread.java:163)
+<br>----------- xxl-job job execute end(error) -----------
+2023-09-27 21:42:41 [com.xxl.job.core.thread.TriggerCallbackThread#callbackLog]-[197]-[xxl-job, executor TriggerCallbackThread] <br>----------- xxl-job job callback finish.
+2023-09-27 21:43:51 [com.xxl.job.core.thread.JobThread#run]-[191]-[Thread-24] <br>----------- JobThread toStop, stopReason:change job source or glue type, and terminate the old job thread.
+2023-09-27 21:43:51 [com.xxl.job.core.thread.JobThread#run]-[201]-[Thread-24] <br>----------- JobThread Exception:java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.reportInterruptAfterWait(AbstractQueuedSynchronizer.java:2014)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2088)
+	at java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:467)
+	at com.xxl.job.core.thread.JobThread.run(JobThread.java:111)
+<br>----------- xxl-job job execute end(error) -----------

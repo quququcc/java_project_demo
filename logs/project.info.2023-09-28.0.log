@@ -1,0 +1,197 @@
+2023-09-28 10:18:24.969 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 10:18:34.993 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 40816 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 10:18:34.995 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 10:18:36.181 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 10:18:36.184 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 10:18:36.214 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-09-28 10:18:37.145 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 10:18:37.151 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:18:37.152 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 10:18:37.153 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 10:18:37.288 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 10:18:37.289 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2068 ms
+2023-09-28 10:18:38.195 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 10:18:38.280 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 10:18:59.418 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 10:18:59.420 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@44618fe6
+2023-09-28 10:19:00.334 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@54e680fe[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 10:19:05.443 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:19:05.453 INFO [project,main,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 10:19:05.453 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 10:19:05.454 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 10:19:05.454 INFO [project,Thread-93,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 10:19:05.457 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 10:19:05.459 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed
+2023-09-28 10:19:05.481 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Pausing ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:19:05.481 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Stopping service [Tomcat]
+2023-09-28 10:19:05.488 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Stopping ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:19:05.490 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Destroying ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:19:05.515 INFO [project,main,,]org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage:136- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-09-28 10:19:50.873 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 10:20:00.928 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 41149 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 10:20:00.932 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 10:20:02.178 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 10:20:02.181 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 10:20:02.215 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2023-09-28 10:20:03.135 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 10:20:03.141 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:20:03.142 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 10:20:03.143 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 10:20:03.276 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 10:20:03.277 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2125 ms
+2023-09-28 10:20:03.958 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 10:20:04.044 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 10:20:25.193 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 10:20:25.195 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@6f22c1f1
+2023-09-28 10:20:25.971 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@46ff1aad[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 10:20:31.045 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:20:31.059 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-09-28 10:20:31.369 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 51.156 seconds (JVM running for 56.819)
+2023-09-28 10:20:36.093 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-09-28 10:20:36.124 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:54- >>>>>>>>>>> xxl-job registry fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused (Connection refused)), for url : http://localhost:8080/xxl-job-admin/api/registry, content=null]
+2023-09-28 10:21:42.068 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:96- >>>>>>>>>>> xxl-job remoting server stop.
+2023-09-28 10:21:42.077 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:87- >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2023-09-28 10:21:42.078 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:105- >>>>>>>>>>> xxl-job, executor registry thread destory.
+2023-09-28 10:21:42.078 INFO [project,SpringApplicationShutdownHook,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 10:21:42.078 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 10:21:42.078 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 10:21:42.079 INFO [project,Thread-93,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 10:21:42.083 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 10:21:42.085 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed
+2023-09-28 10:22:09.833 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 10:22:19.860 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 41644 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 10:22:19.862 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 10:22:20.988 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 10:22:20.991 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 10:22:21.023 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 22 ms. Found 0 Redis repository interfaces.
+2023-09-28 10:22:21.991 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 10:22:21.996 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:22:21.997 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 10:22:21.998 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 10:22:22.119 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 10:22:22.120 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2056 ms
+2023-09-28 10:22:22.946 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 10:22:23.035 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 10:22:44.137 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 10:22:44.139 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@7378c4a4
+2023-09-28 10:22:44.906 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@3a44993c[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 10:22:50.001 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 10:22:50.019 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-09-28 10:22:50.295 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 51.073 seconds (JVM running for 57.025)
+2023-09-28 10:22:55.079 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-09-28 10:25:36.978 INFO [project,http-nio-9091-exec-2,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28 10:25:36.980 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:525- Initializing Servlet 'dispatcherServlet'
+2023-09-28 10:25:36.985 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:547- Completed initialization in 5 ms
+2023-09-28 10:25:37.053 INFO [project,http-nio-9091-exec-2,,]com.fs.dylan.controller.I18nController.logging:46- info log
+2023-09-28 10:29:37.550 INFO [project,xxl-rpc, EmbedServer bizThreadPool-1861416741,,]com.xxl.job.core.executor.XxlJobExecutor.registJobThread:188- >>>>>>>>>>> xxl-job regist JobThread success, jobId:7, handler:com.fs.dylan.schedule.TestBeanClassSchedule@7378c4a4
+2023-09-28 10:31:10.761 INFO [project,Thread-111,,]com.xxl.job.core.thread.JobThread.run:247- >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[Thread-111,10,main]
+2023-09-28 11:13:06.647 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:96- >>>>>>>>>>> xxl-job remoting server stop.
+2023-09-28 11:13:06.667 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:90- >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused (Connection refused)), for url : http://localhost:8080/xxl-job-admin/api/registryRemove, content=null]
+2023-09-28 11:13:06.668 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:105- >>>>>>>>>>> xxl-job, executor registry thread destory.
+2023-09-28 11:13:06.668 INFO [project,SpringApplicationShutdownHook,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 11:13:06.668 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 11:13:06.669 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 11:13:06.669 INFO [project,Thread-94,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 11:13:06.673 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 11:13:06.677 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed
+2023-09-28 13:26:14.990 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 13:26:25.028 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 81015 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 13:26:25.031 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 13:26:26.152 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 13:26:26.154 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 13:26:26.184 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2023-09-28 13:26:27.131 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 13:26:27.137 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:26:27.138 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 13:26:27.139 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 13:26:27.273 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 13:26:27.274 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2021 ms
+2023-09-28 13:26:27.951 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 13:26:28.035 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 13:26:49.178 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 13:26:49.180 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@32d8710a
+2023-09-28 13:26:49.957 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@1cc81ea1[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 13:26:55.052 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:26:55.072 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-09-28 13:26:55.359 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 51.059 seconds (JVM running for 57.177)
+2023-09-28 13:27:00.130 INFO [project,Thread-103,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-09-28 13:27:08.054 INFO [project,http-nio-9091-exec-2,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28 13:27:08.057 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:525- Initializing Servlet 'dispatcherServlet'
+2023-09-28 13:27:08.063 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:547- Completed initialization in 6 ms
+2023-09-28 13:31:45.382 INFO [project,Thread-103,,]com.xxl.job.core.server.EmbedServer.run:96- >>>>>>>>>>> xxl-job remoting server stop.
+2023-09-28 13:31:45.433 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:87- >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2023-09-28 13:31:45.434 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:105- >>>>>>>>>>> xxl-job, executor registry thread destory.
+2023-09-28 13:31:45.434 INFO [project,SpringApplicationShutdownHook,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 13:31:45.435 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 13:31:45.435 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 13:31:45.436 INFO [project,Thread-92,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 13:31:45.440 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 13:31:45.458 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed
+2023-09-28 13:32:12.517 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 13:32:22.572 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 82587 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 13:32:22.576 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 13:32:23.679 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 13:32:23.681 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 13:32:23.707 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+2023-09-28 13:32:24.576 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 13:32:24.582 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:32:24.583 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 13:32:24.584 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 13:32:24.710 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 13:32:24.711 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 1916 ms
+2023-09-28 13:32:25.405 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 13:32:25.480 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 13:32:46.631 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 13:32:46.633 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@6f22c1f1
+2023-09-28 13:32:47.463 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@46ff1aad[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 13:32:52.573 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:32:52.591 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-09-28 13:32:52.957 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 51.136 seconds (JVM running for 56.992)
+2023-09-28 13:32:57.670 INFO [project,Thread-103,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-09-28 13:34:31.942 INFO [project,http-nio-9091-exec-2,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28 13:34:31.944 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:525- Initializing Servlet 'dispatcherServlet'
+2023-09-28 13:34:31.948 INFO [project,http-nio-9091-exec-2,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:547- Completed initialization in 4 ms
+2023-09-28 13:36:22.468 INFO [project,Thread-103,,]com.xxl.job.core.server.EmbedServer.run:96- >>>>>>>>>>> xxl-job remoting server stop.
+2023-09-28 13:36:22.570 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:87- >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+2023-09-28 13:36:22.572 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:105- >>>>>>>>>>> xxl-job, executor registry thread destory.
+2023-09-28 13:36:22.572 INFO [project,SpringApplicationShutdownHook,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 13:36:22.575 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 13:36:22.577 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 13:36:22.577 INFO [project,Thread-93,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 13:36:22.592 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 13:36:22.614 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed
+2023-09-28 13:36:51.427 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-09-28 13:37:01.481 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on fs-dylandeMacBook-Air.local with PID 83780 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-09-28 13:37:01.485 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-09-28 13:37:02.634 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-28 13:37:02.636 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-28 13:37:02.669 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2023-09-28 13:37:03.587 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-09-28 13:37:03.593 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:37:03.594 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-09-28 13:37:03.595 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-09-28 13:37:03.729 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-09-28 13:37:03.730 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2016 ms
+2023-09-28 13:37:04.726 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-09-28 13:37:04.813 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-09-28 13:37:25.884 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-09-28 13:37:25.887 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@6796a873
+2023-09-28 13:37:26.656 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4ba1f425[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-09-28 13:37:31.756 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-09-28 13:37:31.774 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-09-28 13:37:32.076 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 51.331 seconds (JVM running for 57.304)
+2023-09-28 13:37:36.858 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-09-28 13:37:37.696 INFO [project,http-nio-9091-exec-1,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-28 13:37:37.699 INFO [project,http-nio-9091-exec-1,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:525- Initializing Servlet 'dispatcherServlet'
+2023-09-28 13:37:37.719 INFO [project,http-nio-9091-exec-1,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:547- Completed initialization in 20 ms
+2023-09-28 14:18:43.600 INFO [project,Thread-104,,]com.xxl.job.core.server.EmbedServer.run:96- >>>>>>>>>>> xxl-job remoting server stop.
+2023-09-28 14:18:43.641 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:90- >>>>>>>>>>> xxl-job registry-remove fail, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='project', registryValue='http://10.33.49.30:9988/'}, registryResult:ReturnT [code=500, msg=xxl-rpc remoting error(Connection refused (Connection refused)), for url : http://localhost:8080/xxl-job-admin/api/registryRemove, content=null]
+2023-09-28 14:18:43.641 INFO [project,xxl-job, executor ExecutorRegistryThread,,]com.xxl.job.core.thread.ExecutorRegistryThread.run:105- >>>>>>>>>>> xxl-job, executor registry thread destory.
+2023-09-28 14:18:43.641 INFO [project,SpringApplicationShutdownHook,,]com.xxl.job.core.server.EmbedServer.stop:125- >>>>>>>>>>> xxl-job remoting server destroy success.
+2023-09-28 14:18:43.642 INFO [project,xxl-job, executor JobLogFileCleanThread,,]com.xxl.job.core.thread.JobLogFileCleanThread.run:99- >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destory.
+2023-09-28 14:18:43.642 INFO [project,xxl-job, executor TriggerCallbackThread,,]com.xxl.job.core.thread.TriggerCallbackThread.run:98- >>>>>>>>>>> xxl-job, executor callback thread destory.
+2023-09-28 14:18:43.643 INFO [project,Thread-93,,]com.xxl.job.core.thread.TriggerCallbackThread.run:128- >>>>>>>>>>> xxl-job, executor retry callback thread destory.
+2023-09-28 14:18:43.648 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2105- {dataSource-1} closing ...
+2023-09-28 14:18:43.654 INFO [project,SpringApplicationShutdownHook,,]com.alibaba.druid.pool.DruidDataSource.close:2178- {dataSource-1} closed

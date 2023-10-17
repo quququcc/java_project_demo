@@ -1,0 +1,34 @@
+2023-10-08 14:57:59.136 INFO [project,main,,]com.fs.dylan.Application.logStarting:55- Starting Application using Java 1.8.0_341 on 192.168.0.110 with PID 84129 (/Users/fs-dylan/java_project/dylan/interface/target/classes started by fs-dylan in /Users/fs-dylan/java_project/dylan)
+2023-10-08 14:57:59.140 INFO [project,background-preinit,,]org.hibernate.validator.internal.util.Version.<clinit>:21- HV000001: Hibernate Validator 6.2.5.Final
+2023-10-08 14:57:59.143 INFO [project,main,,]com.fs.dylan.Application.logStartupProfileInfo:637- The following 1 profile is active: "dev"
+2023-10-08 14:58:00.583 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-10-08 14:58:00.586 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-10-08 14:58:00.640 INFO [project,main,,]org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201- Finished Spring Data repository scanning in 39 ms. Found 0 Redis repository interfaces.
+2023-10-08 14:58:01.602 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize:108- Tomcat initialized with port(s): 9091 (http)
+2023-10-08 14:58:01.609 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Initializing ProtocolHandler ["http-nio-9091"]
+2023-10-08 14:58:01.609 INFO [project,main,,]org.apache.catalina.core.StandardService.log:173- Starting service [Tomcat]
+2023-10-08 14:58:01.609 INFO [project,main,,]org.apache.catalina.core.StandardEngine.log:173- Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-10-08 14:58:01.765 INFO [project,main,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring embedded WebApplicationContext
+2023-10-08 14:58:01.767 INFO [project,main,,]org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext:292- Root WebApplicationContext: initialization completed in 2232 ms
+2023-10-08 14:58:03.220 INFO [project,main,,]com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource:55- Init DruidDataSource
+2023-10-08 14:58:03.313 INFO [project,main,,]com.alibaba.druid.pool.DruidDataSource.init:985- {dataSource-1} inited
+2023-10-08 14:58:04.309 INFO [project,main,,]com.fs.dylan.config.XxlJobConfig.xxlJobExecutor:48- >>>>>>>>>>> xxl-job config init.
+2023-10-08 14:58:04.313 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:testBeanClassJob, jobHandler:com.fs.dylan.schedule.TestBeanClassSchedule@3601549f
+2023-10-08 14:58:05.158 INFO [project,main,,]com.xxl.job.core.executor.XxlJobExecutor.registJobHandler:178- >>>>>>>>>>> xxl-job register jobhandler success, name:job_test, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@31b67d61[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-10-08 14:58:05.228 INFO [project,main,,]org.apache.coyote.http11.Http11NioProtocol.log:173- Starting ProtocolHandler ["http-nio-9091"]
+2023-10-08 14:58:05.243 INFO [project,main,,]org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start:220- Tomcat started on port(s): 9091 (http) with context path ''
+2023-10-08 14:58:05.271 INFO [project,Thread-17,,]com.xxl.job.core.server.EmbedServer.run:86- >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9988
+2023-10-08 14:58:05.617 INFO [project,main,,]com.fs.dylan.Application.logStarted:61- Started Application in 7.21 seconds (JVM running for 7.919)
+2023-10-08 15:02:51.519 INFO [project,http-nio-9091-exec-1,,]org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-08 15:02:51.521 INFO [project,http-nio-9091-exec-1,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:525- Initializing Servlet 'dispatcherServlet'
+2023-10-08 15:02:51.533 INFO [project,http-nio-9091-exec-1,,]org.springframework.web.servlet.DispatcherServlet.initServletBean:547- Completed initialization in 12 ms
+2023-10-08 15:02:52.464 INFO [project,http-nio-9091-exec-1,,]com.fs.dylan.excel.listener.ImportListener.doAfterAllAnalysed:85- 所有数据解析完成！
+2023-10-08 15:03:26.600 INFO [project,http-nio-9091-exec-3,,]com.fs.dylan.excel.listener.ImportListener.doAfterAllAnalysed:85- 所有数据解析完成！
+2023-10-08 15:17:01.077 INFO [project,http-nio-9091-exec-6,,]com.fs.dylan.excel.listener.ImportListener.doAfterAllAnalysed:85- 所有数据解析完成！
+2023-10-08 15:17:46.681 INFO [project,http-nio-9091-exec-7,,]com.fs.dylan.excel.listener.ImportListener.doAfterAllAnalysed:85- 所有数据解析完成！
+2023-10-08 18:38:51.211 INFO [project,xxl-rpc, EmbedServer bizThreadPool-1542661791,,]com.xxl.job.core.executor.XxlJobExecutor.registJobThread:188- >>>>>>>>>>> xxl-job regist JobThread success, jobId:7, handler:com.fs.dylan.schedule.TestBeanClassSchedule@3601549f
+2023-10-08 18:39:23.648 INFO [project,xxl-rpc, EmbedServer bizThreadPool-1542661791,,]com.xxl.job.core.executor.XxlJobExecutor.registJobThread:188- >>>>>>>>>>> xxl-job regist JobThread success, jobId:6, handler:com.xxl.job.core.handler.impl.GlueJobHandler@7bb00905
+2023-10-08 18:40:11.194 INFO [project,xxl-rpc, EmbedServer bizThreadPool-1542661791,,]com.xxl.job.core.executor.XxlJobExecutor.registJobThread:188- >>>>>>>>>>> xxl-job regist JobThread success, jobId:3, handler:com.xxl.job.core.handler.impl.MethodJobHandler@31b67d61[class com.fs.dylan.schedule.DemoBEANSchedule#testSchedule]
+2023-10-08 18:40:47.123 INFO [project,Thread-24,,]com.xxl.job.core.thread.JobThread.run:247- >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[Thread-24,10,main]
+2023-10-08 18:40:56.756 INFO [project,Thread-25,,]com.xxl.job.core.thread.JobThread.run:247- >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[Thread-25,10,main]
+2023-10-08 18:41:44.282 INFO [project,Thread-26,,]com.xxl.job.core.thread.JobThread.run:247- >>>>>>>>>>> xxl-job JobThread stoped, hashCode:Thread[Thread-26,10,main]

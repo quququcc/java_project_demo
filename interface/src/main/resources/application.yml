@@ -1,0 +1,88 @@
+server:
+  port: 9091
+
+jwt:
+  key: 1234567890
+
+mybatis:
+  configuration:
+    call-setters-on-nulls: true
+    return-instance-for-empty-row: true
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    lazy-loading-enabled: true
+  global-config:
+    db-config:
+      logic-not-delete-value: 0
+      logic-delete-field: is_deleted
+      logic-delete-value: 1
+logging:
+  file:
+    # 日志存储的目录
+    path: ./logs
+  level:
+    name: info
+
+spring:
+  messages:
+    i18n:
+      #在i18n文件下message开头的配置文件
+      basename: i18n/messages
+      #配置缓存的时间，单位 s
+      cache-seconds: 3600
+      #设置编码
+      encoding: UTF-8
+  profiles:
+    active: dev
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/project?useUnicode=true&characterEncoding=UTF-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Zc123456.
+    username: root
+  redis:
+    host: 127.0.0.1
+    password: root
+    port: 6379
+    database: 0
+    timeout: 10s
+    client-type: lettuce
+    lettuce:
+      pool:
+        max-active: 1000
+        max-idle: 300
+        min-idle: 3
+
+knife4j:
+  enable: true
+  production: false
+  basic:
+    enable: true
+    username: dylan
+    password: root
+
+xxl:
+  job:
+    # 连接xxl-job验证的token登陆
+    accessToken: default_token
+    admin:
+      # 调度中心部署根地址
+      addresses: http://localhost:8080/xxl-job-admin
+    executor:
+      # 执行器应用名称
+      appname: project
+      # 执行器默认端口为9999
+      port: 9988
+      # 优先使用该配置作为注册地址，为空时使用内嵌服务 ”IP:PORT“ 作为注册地址
+      address:
+      # 默认为空表示自动获取IP
+      ip:
+      # 日志文件保存路径
+      logpath: ./jobhandler
+      # 日志文件保存天数 限制值大于等于3时生效; 否则, 如-1, 关闭自动清理功能；
+      logretentiondays: 30
